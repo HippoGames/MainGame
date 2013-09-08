@@ -27,6 +27,7 @@ public class Main extends Canvas implements Runnable {
 	boolean alive = true;
 	
 	private int test = 5;
+	private int test2 = 5;
 
 	public Main() {
 		Dimension size = new Dimension(width * scale, height * scale);
