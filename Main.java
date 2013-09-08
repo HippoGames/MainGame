@@ -25,6 +25,8 @@ public class Main extends Canvas implements Runnable {
 	private BufferedImage image = new BufferedImage(width, height, BufferedImage.TYPE_INT_RGB);
 	private int[] pixels = ((DataBufferInt) image.getRaster().getDataBuffer()).getData();
 	boolean alive = true;
+	
+	private int test = 5;
 
 	public Main() {
 		Dimension size = new Dimension(width * scale, height * scale);
